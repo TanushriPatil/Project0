@@ -21,14 +21,13 @@
                 margin-right: 2%;
                 
             }
+
             .container{
                 justify-content: center;
                 display:flex;
                 flex-flow: row wrap;
                 background-color:rgba(10, 12, 11, 0) ;
                 align-items:center;
-               
-                
             }
             .container > div{
                 background-color: #f1f2f6;
@@ -63,12 +62,39 @@
                     color: white;
                     text-decoration: none!important;
             }
+
             #leftpic{
                 position: absolute;
                 top: 0%;
                 left: 0%;
                 padding:0%;
             }              
+
+            .jumbotron {
+                    text-align: center;
+                    font-family:"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+                    margin-left: 25%;
+                    margin-right: 25%;
+                    background-color: #d3d3d3;
+                    background-image: linear-gradient(315deg, #d3d3d3 15%, #ee5253 100%);
+                    padding: 2%;
+                    border-radius: 25mm;
+            }
+            .jumbotron .display-4{
+                font-size: 28px;
+                font-weight: bolder;
+            }
+            .jumbotron a{
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .jumbotron .lead{
+                font-size: 23px;
+            }
+            .jumbotron p{
+                font-size: 20px;
+            }
+
         </style>
     </head>
     <body>
@@ -84,6 +110,13 @@
             <div><a href = "research.html"> Research and Development </a></div>
             </div>
         </div>
+        <div class="jumbotron">
+            <h1 class="display-4">BOON OR BANE?</h1>
+            <p class="lead">Impact of the COVID-19 pandemic on the environment.</p>
+            <hr class="my-4">
+            <p>Click the link below to learn more.</p>
+            <a class="btn btn-primary btn-lg" href="Boon_Bane.html" role="button">Learn more</a>
+          </div>
         
     </body>
 </html>
