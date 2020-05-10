@@ -152,6 +152,7 @@
     }
     .sub-header{
         font-size: 40px;
+        font-family: "Book Antiqua","Palatino", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
         border-bottom: 1px solid gray;
         margin: 3%;
         margin-top:0%;
@@ -183,14 +184,13 @@
       /*  margin: 3%;*/
         padding: 2%;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 16px;
-        
-     
+        font-size: 16px;     
     }
     #links-style a{
         margin-left: 3%;
         text-decoration: none;
     }
 
+    
 
 
