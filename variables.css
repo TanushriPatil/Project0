@@ -1,0 +1,43 @@
+.row > .col-lg-3 {
+  padding: 1%;
+  font-family: "Book Antiqua", "Palatino", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  background-color: #f9ea8f;
+  background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
+  border: 1px dashed black;
+  margin: 2%;
+  margin-right: 2%;
+  margin-left: 4%;
+  text-align: center;
+}
+.row > .col-lg-3 .content-1 {
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+  font-weight: bold;
+}
+.row > .col-lg-3 p {
+  font-size: 20px;
+}
+.btn_index_page, .btn_about_page, .btn_prevention, .btn_current_sit {
+  text-decoration: none;
+  padding: 1%;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-weight: bold;
+  font-style: oblique;
+  color: black;
+}
+.btn_index_page {
+  background-color: lightcyan;
+}
+.btn_about_page {
+  background-color: lightgray;
+}
+.btn_prevention {
+  background-color: lightyellow;
+}
+.btn_current_sit {
+  background-color: lightgoldenrodyellow;
+}
